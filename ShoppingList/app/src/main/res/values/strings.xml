@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+    <string name="settings_title">Settings</string>
+    <string name="mark_all_purchased_title">Mark All As Purchased</string>
+    <string name="mark_purchased_title">Mark As Purchased</string>
+    <string name="delete_title">Delete</string>
+    <string name="edit_title">Edit</string>
+    <string name="share_title">Share</string>
+    <string name="about_title">About</string>
+    <string name="share_shopping_list">Share shopping list to...</string>
+    <string name="edit_item_title">Edit Item</string>
+    <string name="save_title">Save</string>
+    <string name="are_you_sure">Are You Sure?</string>
+    <string name="confirm_mark_all_purchased">Please confirm that you would like to mark all items as purchased.</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="item_row_format" formatted="false">%d of %s</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">search items</string>
+</resources>

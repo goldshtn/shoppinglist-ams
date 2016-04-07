@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_item_settings"
+        android:title="@string/settings_title"
+        android:icon="@android:drawable/ic_menu_preferences"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/menu_item_mark_all_purchased"
+        android:title="@string/mark_all_purchased_title"
+        android:icon="@android:drawable/ic_menu_set_as"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/menu_item_share"
+        android:title="@string/share_title"
+        android:icon="@android:drawable/ic_menu_share"
+        app:showAsAction="ifRoom"
+        />
+
+    <item android:id="@+id/menu_item_search"
+        android:title="@string/search_title"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="collapseActionView|ifRoom"
+        app:actionViewClass="android.widget.SearchView" />
+
+    <item
+        android:id="@+id/menu_item_about"
+        android:title="@string/about_title"
+        android:icon="@android:drawable/ic_menu_info_details"
+        app:showAsAction="never"
+        />
+
+</menu>
